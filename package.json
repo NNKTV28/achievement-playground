@@ -1,0 +1,30 @@
+{
+  "name": "devtoolkit-cli",
+  "version": "1.0.0",
+  "description": "A lightweight CLI toolkit for common developer tasks",
+  "main": "src/index.js",
+  "bin": {
+    "devtoolkit": "./bin/devtoolkit.js"
+  },
+  "scripts": {
+    "start": "node bin/devtoolkit.js",
+    "test": "node tests/runner.js",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "utilities",
+    "devtools",
+    "toolkit"
+  ],
+  "author": "NNKTV28",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NNKTV28/achievement-playground.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
